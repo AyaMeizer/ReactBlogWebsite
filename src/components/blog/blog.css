@@ -1,0 +1,10 @@
+.blogBg{
+    background-image: url('https://www.daebuild.com/wp-content/themes/daebuildTheme/images/blog-bg.jpg');
+    height: 30em;
+    margin: 0;
+}
+.overLay{
+    background-color: rgba(0, 0, 0, 0.603);
+    height: 30em;
+    margin: 0%;
+}

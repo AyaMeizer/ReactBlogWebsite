@@ -1,0 +1,86 @@
+#formCont{
+    margin: 10em auto 18vh;
+    width: 40%;
+    background-color: rgba(39, 7, 46, 0.575);
+    padding: 0.5em 0;
+}
+.formInnerCont{
+    display: flex;
+    flex-direction: column;
+    margin: 1em auto 1em;
+    justify-content: center;
+    align-items: center;
+}
+.formTitle{
+color: azure;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.inCon{
+    margin:0em auto; 
+    width: 80%;
+}
+#firstName_cont,#Email_cont{
+    display: inline;
+    width: 42%;
+    margin: 1em 1.5em 0 0;
+    height: 2em;
+    border-radius: 1em;
+    padding-left: 0.5em;
+    border: 0.5px solid;
+}
+#lastName_cont,#phoneNumber_cont{
+    display: inline;
+    width: 42%;
+    margin: 1em 0em 1em 0;
+    height: 2em;
+    border-radius: 1em;
+    padding-left: 0.5em;
+    border: 0.5px solid;
+}
+#address_cont{
+    width: 92%;
+    margin: 1em 0em 1em 0;
+    height: 2em;
+    border-radius: 2em;
+    padding-left: 0.5em;
+    border: 0.5px solid;
+}
+#txtArea{
+    margin: 1em 1em 0 0; 
+    width: 75%; 
+}
+.submitBtn{
+    border-radius: 5em;
+    border: 0.5px solid;
+    width: 30%;
+    height: 2.5em;
+    margin: 2em 3em 0em;
+    background-color:rgb(220, 220, 240);
+    border-radius: 5em;
+}
+.submitBtn:hover{
+    background:rgba(160, 160, 185, 0.815);
+    color:white;
+}
+@media screen and (max-width:1320px) {
+    #formCont{
+        width:40%;
+    }}
+@media screen and (max-width:950px) {
+    #formCont{
+        width:70%;
+    }}
+      
+        @media screen and (max-width:550px) {
+            #formCont{
+                width:90%;
+                }
+            .formTitle{
+                font-size: 25px;
+               }
+         #firstName_cont,#lastName_cont,#Email_cont,#phoneNumber_cont{
+               width:90%;
+               display: block;
+                width: 92%;
+            } }
+        

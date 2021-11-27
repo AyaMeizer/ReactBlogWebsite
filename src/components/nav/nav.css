@@ -1,0 +1,155 @@
+#allNav{
+    background-color: rgb(55, 51, 61) ;
+    position: fixed;
+    right: 0%;
+    left: 0%;
+    top: 0%;
+    margin: 0px;
+    z-index: 1000;
+}
+#upperNav{
+    font-size:30px ;
+    text-align:center; 
+    color: white;
+    margin: 0%;
+    font-family: fantasy;
+}
+#navLogo{
+    width:60px;
+    vertical-align:middle;
+}
+#logoName{
+    display:inline ;
+    vertical-align:middle;
+    text-align: center;
+    color:rgb(144 129 165)
+}
+#LoginBtn{
+    /* position: absolute;
+    right: 9.80%;
+    top: 10%; */
+    padding: 0.7em 1em;
+    background-color: rgb(185 185 218);
+    border: none;
+    font-size: 16px;
+    border-radius: 1em;
+    width: 7em;
+    height: 2.5em;
+}
+#LoginBtn:hover{
+    background-color: rgba(160, 160, 185, 0.815);
+     color: ghostwhite;
+}
+#lowerNav{
+        display:inline ;
+        color:rgb(71, 70, 70);
+    margin: 0px;
+
+    }
+    ul{
+        display:flex ;
+        justify-content:space-around;
+    }
+    li a{
+        font-size: 24px;
+        color: white;
+        text-decoration: none;
+    }
+    li:hover{
+        transform: scale(1.1);
+        transition-duration: 0.5ms;
+    }
+    li{
+        display: inline;
+    }
+    #signUp{
+        padding: 0.7em 1em;
+        background-color: rgb(185 185 218);
+        border: none;
+        font-size: 16px;
+        /* margin: 0% 0 0em 1em; */
+        border-radius: 1em;
+        width: 7em;
+        height: 2.5em;
+    }
+    #signUp:hover{
+     background-color: rgba(160, 160, 185, 0.815);
+     color: ghostwhite;
+    }
+    #container{
+        margin: 20vh auto 10%;
+        text-align: center;
+        background-color: rgba(39, 7, 46, 0.575);
+        color: azure;
+        width: 30%;
+        padding: 2em;
+    }
+    #regTitle{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .profileImg{
+        margin: 0 auto;
+    }
+    #firstName, #lastName{
+     display: inline;
+     width: 40%;
+    }
+    .inputs{
+        display: inline-flex;
+        text-align: justify;
+        margin: 1em ;
+        width: 90%;
+        height: 2em;
+        border-radius: 2em;
+        padding-left: 0.5em;
+        border: 0.5px solid;
+    }
+    #regMsg{
+     /* display: inline; */
+     margin: 0 2em 0 ;
+     text-align: center;
+     text-decoration:none;
+     color:white;
+    }
+    #regMsg:hover{
+        color: rgb(176, 176, 255);
+    }
+    .regSubmit{
+      border-radius: 5em;
+      border: 0.5px solid;
+      width: 40%;
+      height: 2.5em;
+      margin: 1em 3em 0em;
+      background-color:rgb(220, 220, 240) ;
+    }
+    .regSubmit:hover{
+        background-color:rgba(160, 160, 185, 0.815) ;
+        color: aliceblue;
+    }
+    #forgetPass{
+        margin: 0%;
+    }
+    #forgetPass:hover{
+        color: rgb(176, 176, 255);
+        transition-duration: 0.4ms;
+    }
+    @media screen and (max-width:1300px) {
+        #container{
+            width:50%;
+        }}
+        @media screen and (max-width:780px) {
+            #container{
+                width:80%;
+            }}
+        @media screen and (max-width:500px) {
+            #container{
+                width:90%;
+            }
+    }
+    @media screen and (max-width:430px) {
+        #firstName, #lastName{
+            display: block;
+            width: 90%;
+            margin: 1em auto 0 ;
+           }
+}

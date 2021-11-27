@@ -1,0 +1,17 @@
+#footerCont{
+    background-color: rgb(55, 51, 61) ;
+    margin: 0%;
+    padding: 0.5em;
+    bottom: 0%;
+}
+#socialIcons{
+    display: flex;
+    justify-content: space-around;
+}
+#copyRights{
+    color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: static;
+    margin: 0%;
+}

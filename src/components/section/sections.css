@@ -1,0 +1,25 @@
+/*#bgImg{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNNndp_7irqJbTv5pSAtZAnfSD1xaqzcLyuQ&usqp=CAU");
+    background-size: cover;
+    background-attachment: fixed;
+}*/
+/* #overlay{
+    background-color: rgba(17, 18, 31, 0.658);
+    padding: 1em;
+}  */
+.secCont{
+    scroll-behavior: smooth;
+}
+.cardsCont{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+}
+#secName{
+    margin: 3em auto auto;
+    text-align: center;
+}
+.coursesH1{
+    text-align: center;
+}
